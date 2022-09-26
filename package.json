@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev:app": "npm run dev -w app",
-    "dev:docs": "npm run dev -w docs"
+    "dev:docs": "npm run dev -w docs",
+    "build:app": "npm run build -w app",
+    "build:docs": "npm run build -w docs"
   },
   "workspaces": [
     "apps/*",
